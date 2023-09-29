@@ -39,6 +39,7 @@ Rakish.Project(
 
                     cmd = "./gradlew"
                     cmd += " -Pjdk20_home=/Library/Java/JavaVirtualMachines/zulu-20.jdk/Contents/Home"
+                    cmd += " -Pjdk21_home=/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home"
                     cmd += " -Pllvm_home=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/"
                     cmd += " clean verify"
 
